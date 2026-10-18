@@ -1,7 +1,5 @@
 # Node.js TypeScript Express Server
 
-[![Deploy on Railway](https://railway.com/button.svg)](https://railway.com/template/toIOqb?referralCode=lq4q3M)
-
 This repository contains a Node.js server built with Express and TypeScript. It follows a structured architecture with service, controller, and middleware layers. The server includes token-based authentication and logging configured to automatically switch between JSON logging (for production) and console-based logging (for local development). Logs are stored and can be accessed via an endpoint. In production, logs are stored in a volume to persist across redeploys.
 
 ## Features
